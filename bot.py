@@ -4,6 +4,10 @@ import aiohttp  # type: ignore
 import json
 import os
 import hashlib
+import threading
+import time
+import urllib.request
+from http.server import HTTPServer, BaseHTTPRequestHandler
 from datetime import datetime, date
 from dotenv import load_dotenv  # type: ignore
 from telegram import (  # type: ignore
@@ -803,6 +807,39 @@ async def errorHandler(update: object, ctx: ContextTypes.DEFAULT_TYPE):
     log.error("Update %s caused error: %s", update, ctx.error)
 
 
+# ── Keep-alive server + self-ping ─────────────────────────────────────────────
+
+class PingHandler(BaseHTTPRequestHandler):
+    def do_GET(self):
+        self.send_response(200)
+        self.end_headers()
+        self.wfile.write(b"OK")
+    def log_message(self, format, *args):
+        pass  # suppress access logs
+
+def startHealthServer():
+    port = int(os.getenv("PORT", 8080))
+    server = HTTPServer(("0.0.0.0", port), PingHandler)
+    log.info("Health server on port %d", port)
+    server.serve_forever()
+
+def startSelfPing():
+    # Wait for server to start
+    time.sleep(15)
+    url = os.getenv("RENDER_EXTERNAL_URL", "")
+    if not url:
+        log.info("No RENDER_EXTERNAL_URL set — self-ping disabled")
+        return
+    log.info("Self-ping started → %s", url)
+    while True:
+        try:
+            urllib.request.urlopen(url, timeout=10)
+            log.info("Self-ping OK")
+        except Exception as e:
+            log.warning("Self-ping failed: %s", e)
+        time.sleep(300)  # ping every 5 minutes
+
+
 def main():
     app = Application.builder().token(BOT_TOKEN).build()
 
@@ -860,6 +897,11 @@ def main():
     app.add_handler(CallbackQueryHandler(cbAdminBroadcastPrompt, pattern="^adm_broadcast$"))
     app.add_handler(CallbackQueryHandler(cbAdminClose,     pattern="^adm_close$"))
     app.add_handler(MessageHandler(filters.TEXT & ~filters.COMMAND, fallback))
+
+    # Start keep-alive health server
+    threading.Thread(target=startHealthServer, daemon=True).start()
+    # Start self-ping to prevent Render free tier spin-down
+    threading.Thread(target=startSelfPing, daemon=True).start()
 
     log.info("Bot running")
     app.run_polling(allowed_updates=Update.ALL_TYPES)
