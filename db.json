@@ -1,0 +1,919 @@
+{
+  "users": {
+    "961369378": {
+      "userId": 961369378,
+      "username": "drazeforce",
+      "firstName": "4nsil\ud83d\udc19\u21b2",
+      "joinedAt": "2026-03-10T02:11:36.250909",
+      "totalLookups": 23,
+      "lastSeen": "2026-03-10T13:57:55.591410"
+    },
+    "5946969351": {
+      "userId": 5946969351,
+      "username": "amitlosther",
+      "firstName": "AMIT",
+      "joinedAt": "2026-03-10T05:13:54.249588",
+      "totalLookups": 1,
+      "lastSeen": "2026-03-10T07:46:51.020652"
+    },
+    "7734674224": {
+      "userId": 7734674224,
+      "username": "IFF0A",
+      "firstName": "24",
+      "joinedAt": "2026-03-10T06:09:22.865951",
+      "totalLookups": 0,
+      "lastSeen": "2026-03-10T06:09:22.865951"
+    },
+    "7606499525": {
+      "userId": 7606499525,
+      "username": "INTANETO7701",
+      "firstName": ".",
+      "joinedAt": "2026-03-10T06:09:50.601501",
+      "totalLookups": 1,
+      "lastSeen": "2026-03-10T06:10:13.603045"
+    },
+    "7885463999": {
+      "userId": 7885463999,
+      "username": "iilnoo",
+      "firstName": "\u0644\u0646\u0648",
+      "joinedAt": "2026-03-10T06:12:55.124345",
+      "totalLookups": 23,
+      "lastSeen": "2026-03-10T07:32:48.998770"
+    },
+    "582586500": {
+      "userId": 582586500,
+      "username": "",
+      "firstName": "\u0158aven Shipments | ON 25% Discount",
+      "joinedAt": "2026-03-10T06:12:57.275950",
+      "totalLookups": 1,
+      "lastSeen": "2026-03-10T06:13:14.052396"
+    },
+    "8589401957": {
+      "userId": 8589401957,
+      "username": "imtheoneopeningports",
+      "firstName": "Hello",
+      "joinedAt": "2026-03-10T06:13:45.177970",
+      "totalLookups": 1,
+      "lastSeen": "2026-03-10T06:14:04.052748"
+    },
+    "6499822936": {
+      "userId": 6499822936,
+      "username": "",
+      "firstName": "Dexter_23",
+      "joinedAt": "2026-03-10T06:14:58.641352",
+      "totalLookups": 2,
+      "lastSeen": "2026-03-10T06:17:54.544103"
+    },
+    "1146948069": {
+      "userId": 1146948069,
+      "username": "asterhss",
+      "firstName": "Asterhs",
+      "joinedAt": "2026-03-10T06:27:19.196909",
+      "totalLookups": 9,
+      "lastSeen": "2026-03-10T06:51:24.807109"
+    },
+    "1790070248": {
+      "userId": 1790070248,
+      "username": "UQ_QV",
+      "firstName": "\u3164\u3164\u3164\u3164\u3164\u3164\u3164\u3164\u3164\u3164\u3164\u3164\u3164\u3164",
+      "joinedAt": "2026-03-10T07:59:26.246761",
+      "totalLookups": 4,
+      "lastSeen": "2026-03-10T08:02:35.710104"
+    },
+    "7818463583": {
+      "userId": 7818463583,
+      "username": "ri181",
+      "firstName": "ri",
+      "joinedAt": "2026-03-10T08:45:09.524255",
+      "totalLookups": 0,
+      "lastSeen": "2026-03-10T08:45:09.524255"
+    },
+    "1214815977": {
+      "userId": 1214815977,
+      "username": "Johaaaannnnn",
+      "firstName": "\uaab6\u0362\u026a\u0365\u1d1b\u036ds\u1de4 \u0362\u1d0d\u036b\u1d07\u0364\u1843\u20ddI\u026a\u01eb\u20d6\u0299\u1d00\u029f\u20e1\u0714",
+      "joinedAt": "2026-03-10T11:45:00.844276",
+      "totalLookups": 12,
+      "lastSeen": "2026-03-10T13:26:18.078052"
+    },
+    "1635646211": {
+      "userId": 1635646211,
+      "username": "bullxgod",
+      "firstName": "Joe",
+      "joinedAt": "2026-03-10T12:44:40.532323",
+      "totalLookups": 1,
+      "lastSeen": "2026-03-10T12:45:03.676390"
+    },
+    "5927721540": {
+      "userId": 5927721540,
+      "username": "Joh4n404",
+      "firstName": "\u2665\ufe0f",
+      "joinedAt": "2026-03-10T13:55:28.543267",
+      "totalLookups": 1,
+      "lastSeen": "2026-03-10T14:03:00.266978"
+    }
+  },
+  "lookups": [
+    {
+      "ts": "2026-03-10T02:12:17.472347",
+      "userId": 961369378,
+      "username": "drazeforce",
+      "firstName": "4nsil\ud83d\udc19\u21b2",
+      "query": "johannnnnnnnnnnnnnnn07",
+      "success": true,
+      "phone": "7034893736",
+      "country": "India"
+    },
+    {
+      "ts": "2026-03-10T02:14:41.057246",
+      "userId": 961369378,
+      "username": "drazeforce",
+      "firstName": "4nsil\ud83d\udc19\u21b2",
+      "query": "drazeforce",
+      "success": true,
+      "phone": "8075046930",
+      "country": "India"
+    },
+    {
+      "ts": "2026-03-10T02:19:30.048076",
+      "userId": 961369378,
+      "username": "drazeforce",
+      "firstName": "4nsil\ud83d\udc19\u21b2",
+      "query": "drazeforce",
+      "success": true,
+      "phone": "8075046930",
+      "country": "India"
+    },
+    {
+      "ts": "2026-03-10T02:20:37.696293",
+      "userId": 961369378,
+      "username": "drazeforce",
+      "firstName": "4nsil\ud83d\udc19\u21b2",
+      "query": "Nvgnetwork",
+      "success": false,
+      "phone": "",
+      "country": ""
+    },
+    {
+      "ts": "2026-03-10T02:21:07.872320",
+      "userId": 961369378,
+      "username": "drazeforce",
+      "firstName": "4nsil\ud83d\udc19\u21b2",
+      "query": "Nvgnetwork",
+      "success": false,
+      "phone": null,
+      "country": null
+    },
+    {
+      "ts": "2026-03-10T02:21:21.868959",
+      "userId": 961369378,
+      "username": "drazeforce",
+      "firstName": "4nsil\ud83d\udc19\u21b2",
+      "query": "drazeforce",
+      "success": true,
+      "phone": "8075046930",
+      "country": "India"
+    },
+    {
+      "ts": "2026-03-10T02:22:43.437301",
+      "userId": 961369378,
+      "username": "drazeforce",
+      "firstName": "4nsil\ud83d\udc19\u21b2",
+      "query": "Hallalalalalao",
+      "success": true,
+      "phone": "6235402861",
+      "country": "India"
+    },
+    {
+      "ts": "2026-03-10T02:33:37.348139",
+      "userId": 961369378,
+      "username": "drazeforce",
+      "firstName": "4nsil\ud83d\udc19\u21b2",
+      "query": "Gem_Ofc",
+      "success": false,
+      "phone": null,
+      "country": null
+    },
+    {
+      "ts": "2026-03-10T02:34:11.528276",
+      "userId": 961369378,
+      "username": "drazeforce",
+      "firstName": "4nsil\ud83d\udc19\u21b2",
+      "query": "LORDHEMANT9090",
+      "success": true,
+      "phone": "8178292974",
+      "country": "India"
+    },
+    {
+      "ts": "2026-03-10T02:45:39.397311",
+      "userId": 961369378,
+      "username": "drazeforce",
+      "firstName": "4nsil\ud83d\udc19\u21b2",
+      "query": "drazeforce",
+      "success": false,
+      "phone": "",
+      "country": ""
+    },
+    {
+      "ts": "2026-03-10T02:45:49.186352",
+      "userId": 961369378,
+      "username": "drazeforce",
+      "firstName": "4nsil\ud83d\udc19\u21b2",
+      "query": "961369378",
+      "success": true,
+      "phone": "8075046930",
+      "country": "India"
+    },
+    {
+      "ts": "2026-03-10T02:46:02.836176",
+      "userId": 961369378,
+      "username": "drazeforce",
+      "firstName": "4nsil\ud83d\udc19\u21b2",
+      "query": "drazeforce",
+      "success": true,
+      "phone": "8075046930",
+      "country": "India"
+    },
+    {
+      "ts": "2026-03-10T02:53:51.234178",
+      "userId": 961369378,
+      "username": "drazeforce",
+      "firstName": "4nsil\ud83d\udc19\u21b2",
+      "query": "drazeforce",
+      "success": true,
+      "phone": "8075046930",
+      "country": "India"
+    },
+    {
+      "ts": "2026-03-10T02:54:40.851338",
+      "userId": 961369378,
+      "username": "drazeforce",
+      "firstName": "4nsil\ud83d\udc19\u21b2",
+      "query": "Dazai669",
+      "success": false,
+      "phone": null,
+      "country": null
+    },
+    {
+      "ts": "2026-03-10T02:55:04.436007",
+      "userId": 961369378,
+      "username": "drazeforce",
+      "firstName": "4nsil\ud83d\udc19\u21b2",
+      "query": "bhainkar",
+      "success": true,
+      "phone": "9816652312",
+      "country": "Nepal"
+    },
+    {
+      "ts": "2026-03-10T03:01:46.145128",
+      "userId": 961369378,
+      "username": "drazeforce",
+      "firstName": "4nsil\ud83d\udc19\u21b2",
+      "query": "drazeforce",
+      "success": true,
+      "phone": "8075046930",
+      "country": "India"
+    },
+    {
+      "ts": "2026-03-10T05:07:14.051094",
+      "userId": 961369378,
+      "username": "drazeforce",
+      "firstName": "4nsil\ud83d\udc19\u21b2",
+      "query": "amitlosther",
+      "success": true,
+      "phone": "9079787553",
+      "country": "India"
+    },
+    {
+      "ts": "2026-03-10T06:09:22.850672",
+      "userId": 961369378,
+      "username": "drazeforce",
+      "firstName": "4nsil\ud83d\udc19\u21b2",
+      "query": "xzyow",
+      "success": true,
+      "phone": "17641675501",
+      "country": "Germany"
+    },
+    {
+      "ts": "2026-03-10T06:10:13.603045",
+      "userId": 7606499525,
+      "username": "INTANETO7701",
+      "firstName": ".",
+      "query": "drazeforce",
+      "success": true,
+      "phone": "8075046930",
+      "country": "India"
+    },
+    {
+      "ts": "2026-03-10T06:13:14.052396",
+      "userId": 582586500,
+      "username": "",
+      "firstName": "\u0158aven Shipments | ON 25% Discount",
+      "query": "cooic",
+      "success": false,
+      "phone": "",
+      "country": ""
+    },
+    {
+      "ts": "2026-03-10T06:13:30.155450",
+      "userId": 7885463999,
+      "username": "iilnoo",
+      "firstName": "\u0644\u0646\u0648",
+      "query": "OnlyNic0le",
+      "success": true,
+      "phone": "9579476417",
+      "country": "India"
+    },
+    {
+      "ts": "2026-03-10T06:13:44.851896",
+      "userId": 7885463999,
+      "username": "iilnoo",
+      "firstName": "\u0644\u0646\u0648",
+      "query": "baron_saplar",
+      "success": false,
+      "phone": null,
+      "country": null
+    },
+    {
+      "ts": "2026-03-10T06:13:53.629217",
+      "userId": 7885463999,
+      "username": "iilnoo",
+      "firstName": "\u0644\u0646\u0648",
+      "query": "Gem_Ofc",
+      "success": false,
+      "phone": null,
+      "country": null
+    },
+    {
+      "ts": "2026-03-10T06:14:04.052748",
+      "userId": 8589401957,
+      "username": "imtheoneopeningports",
+      "firstName": "Hello",
+      "query": "imtheoneopeningports",
+      "success": false,
+      "phone": null,
+      "country": null
+    },
+    {
+      "ts": "2026-03-10T06:14:38.120649",
+      "userId": 7885463999,
+      "username": "iilnoo",
+      "firstName": "\u0644\u0646\u0648",
+      "query": "Z_O_R_O_S2",
+      "success": false,
+      "phone": null,
+      "country": null
+    },
+    {
+      "ts": "2026-03-10T06:14:54.411298",
+      "userId": 7885463999,
+      "username": "iilnoo",
+      "firstName": "\u0644\u0646\u0648",
+      "query": "iilnoo",
+      "success": false,
+      "phone": null,
+      "country": null
+    },
+    {
+      "ts": "2026-03-10T06:15:13.521362",
+      "userId": 7885463999,
+      "username": "iilnoo",
+      "firstName": "\u0644\u0646\u0648",
+      "query": "OnlyNic0le",
+      "success": true,
+      "phone": "9579476417",
+      "country": "India"
+    },
+    {
+      "ts": "2026-03-10T06:16:17.524242",
+      "userId": 7885463999,
+      "username": "iilnoo",
+      "firstName": "\u0644\u0646\u0648",
+      "query": "lLeo_onn",
+      "success": true,
+      "phone": "536030462",
+      "country": "Saudi Arabia"
+    },
+    {
+      "ts": "2026-03-10T06:17:35.926968",
+      "userId": 6499822936,
+      "username": "",
+      "firstName": "Dexter_23",
+      "query": "dwr_ba_lem",
+      "success": false,
+      "phone": null,
+      "country": null
+    },
+    {
+      "ts": "2026-03-10T06:17:54.544103",
+      "userId": 6499822936,
+      "username": "",
+      "firstName": "Dexter_23",
+      "query": "dwr_ba_lem",
+      "success": false,
+      "phone": null,
+      "country": null
+    },
+    {
+      "ts": "2026-03-10T06:18:22.020367",
+      "userId": 7885463999,
+      "username": "iilnoo",
+      "firstName": "\u0644\u0646\u0648",
+      "query": "m3adl0ff",
+      "success": true,
+      "phone": "681861471",
+      "country": "Morocco"
+    },
+    {
+      "ts": "2026-03-10T06:19:15.915517",
+      "userId": 7885463999,
+      "username": "iilnoo",
+      "firstName": "\u0644\u0646\u0648",
+      "query": "m3adloff",
+      "success": false,
+      "phone": null,
+      "country": null
+    },
+    {
+      "ts": "2026-03-10T06:21:08.503493",
+      "userId": 7885463999,
+      "username": "iilnoo",
+      "firstName": "\u0644\u0646\u0648",
+      "query": "C_2_7",
+      "success": true,
+      "phone": "1097965178",
+      "country": "Egypt"
+    },
+    {
+      "ts": "2026-03-10T06:23:19.756093",
+      "userId": 7885463999,
+      "username": "iilnoo",
+      "firstName": "\u0644\u0646\u0648",
+      "query": "DrGhost1735",
+      "success": true,
+      "phone": "1207029659",
+      "country": "Egypt"
+    },
+    {
+      "ts": "2026-03-10T06:23:54.064549",
+      "userId": 7885463999,
+      "username": "iilnoo",
+      "firstName": "\u0644\u0646\u0648",
+      "query": "UQ_QV",
+      "success": true,
+      "phone": "1288972285",
+      "country": "Egypt"
+    },
+    {
+      "ts": "2026-03-10T06:25:14.036156",
+      "userId": 7885463999,
+      "username": "iilnoo",
+      "firstName": "\u0644\u0646\u0648",
+      "query": "FFY0O",
+      "success": false,
+      "phone": null,
+      "country": null
+    },
+    {
+      "ts": "2026-03-10T06:28:33.870503",
+      "userId": 7885463999,
+      "username": "iilnoo",
+      "firstName": "\u0644\u0646\u0648",
+      "query": "slomxt",
+      "success": false,
+      "phone": "",
+      "country": ""
+    },
+    {
+      "ts": "2026-03-10T06:29:56.779969",
+      "userId": 7885463999,
+      "username": "iilnoo",
+      "firstName": "\u0644\u0646\u0648",
+      "query": "mmmvi",
+      "success": true,
+      "phone": "556701000",
+      "country": "Saudi Arabia"
+    },
+    {
+      "ts": "2026-03-10T06:30:12.222645",
+      "userId": 1146948069,
+      "username": "asterhss",
+      "firstName": "Asterhs",
+      "query": "molzyyyy",
+      "success": true,
+      "phone": "6971676712",
+      "country": "Greece"
+    },
+    {
+      "ts": "2026-03-10T06:30:16.373942",
+      "userId": 7885463999,
+      "username": "iilnoo",
+      "firstName": "\u0644\u0646\u0648",
+      "query": "i444e",
+      "success": true,
+      "phone": "9911226133",
+      "country": "India"
+    },
+    {
+      "ts": "2026-03-10T06:31:37.348162",
+      "userId": 1146948069,
+      "username": "asterhss",
+      "firstName": "Asterhs",
+      "query": "spikerdw",
+      "success": false,
+      "phone": null,
+      "country": null
+    },
+    {
+      "ts": "2026-03-10T06:33:42.799863",
+      "userId": 1146948069,
+      "username": "asterhss",
+      "firstName": "Asterhs",
+      "query": "Nearos",
+      "success": true,
+      "phone": "1114384532",
+      "country": "Malaysia"
+    },
+    {
+      "ts": "2026-03-10T06:34:46.163839",
+      "userId": 1146948069,
+      "username": "asterhss",
+      "firstName": "Asterhs",
+      "query": "Stef_tony",
+      "success": true,
+      "phone": "6909961480",
+      "country": "Greece"
+    },
+    {
+      "ts": "2026-03-10T06:38:14.061083",
+      "userId": 7885463999,
+      "username": "iilnoo",
+      "firstName": "\u0644\u0646\u0648",
+      "query": "hhhnhi",
+      "success": true,
+      "phone": "7723287176",
+      "country": "Iraq"
+    },
+    {
+      "ts": "2026-03-10T06:39:59.938439",
+      "userId": 1146948069,
+      "username": "asterhss",
+      "firstName": "Asterhs",
+      "query": "ropex_laterio",
+      "success": false,
+      "phone": "",
+      "country": ""
+    },
+    {
+      "ts": "2026-03-10T06:40:17.820289",
+      "userId": 1146948069,
+      "username": "asterhss",
+      "firstName": "Asterhs",
+      "query": "ropexlaterio",
+      "success": false,
+      "phone": "",
+      "country": ""
+    },
+    {
+      "ts": "2026-03-10T06:49:08.404923",
+      "userId": 1146948069,
+      "username": "asterhss",
+      "firstName": "Asterhs",
+      "query": "pol_svr",
+      "success": false,
+      "phone": null,
+      "country": null
+    },
+    {
+      "ts": "2026-03-10T06:51:06.966111",
+      "userId": 1146948069,
+      "username": "asterhss",
+      "firstName": "Asterhs",
+      "query": "trapindustryyy",
+      "success": false,
+      "phone": "",
+      "country": ""
+    },
+    {
+      "ts": "2026-03-10T06:51:24.807109",
+      "userId": 1146948069,
+      "username": "asterhss",
+      "firstName": "Asterhs",
+      "query": "trapindustry",
+      "success": false,
+      "phone": "",
+      "country": ""
+    },
+    {
+      "ts": "2026-03-10T06:57:49.595509",
+      "userId": 7885463999,
+      "username": "iilnoo",
+      "firstName": "\u0644\u0646\u0648",
+      "query": "UQ_QV",
+      "success": true,
+      "phone": "1288972285",
+      "country": "Egypt"
+    },
+    {
+      "ts": "2026-03-10T07:08:13.388145",
+      "userId": 7885463999,
+      "username": "iilnoo",
+      "firstName": "\u0644\u0646\u0648",
+      "query": "ludwigmiesrohe",
+      "success": false,
+      "phone": null,
+      "country": null
+    },
+    {
+      "ts": "2026-03-10T07:09:08.078848",
+      "userId": 7885463999,
+      "username": "iilnoo",
+      "firstName": "\u0644\u0646\u0648",
+      "query": "JOKERccn",
+      "success": true,
+      "phone": "1090848693",
+      "country": "Egypt"
+    },
+    {
+      "ts": "2026-03-10T07:18:17.756251",
+      "userId": 7885463999,
+      "username": "iilnoo",
+      "firstName": "\u0644\u0646\u0648",
+      "query": "V_2_J",
+      "success": true,
+      "phone": "1126645750",
+      "country": "Egypt"
+    },
+    {
+      "ts": "2026-03-10T07:24:08.073194",
+      "userId": 7885463999,
+      "username": "iilnoo",
+      "firstName": "\u0644\u0646\u0648",
+      "query": "1704989891",
+      "success": true,
+      "phone": "1030082719",
+      "country": "Egypt"
+    },
+    {
+      "ts": "2026-03-10T07:32:48.998770",
+      "userId": 7885463999,
+      "username": "iilnoo",
+      "firstName": "\u0644\u0646\u0648",
+      "query": "A_hh1d",
+      "success": true,
+      "phone": "1117123338",
+      "country": "Egypt"
+    },
+    {
+      "ts": "2026-03-10T07:46:51.020652",
+      "userId": 5946969351,
+      "username": "amitlosther",
+      "firstName": "AMIT",
+      "query": "hallucinateme",
+      "success": false,
+      "phone": "",
+      "country": ""
+    },
+    {
+      "ts": "2026-03-10T08:00:29.254194",
+      "userId": 1790070248,
+      "username": "UQ_QV",
+      "firstName": "\u3164\u3164\u3164\u3164\u3164\u3164\u3164\u3164\u3164\u3164\u3164\u3164\u3164\u3164",
+      "query": "iilnoo",
+      "success": false,
+      "phone": null,
+      "country": null
+    },
+    {
+      "ts": "2026-03-10T08:01:04.418234",
+      "userId": 1790070248,
+      "username": "UQ_QV",
+      "firstName": "\u3164\u3164\u3164\u3164\u3164\u3164\u3164\u3164\u3164\u3164\u3164\u3164\u3164\u3164",
+      "query": "A_H_A_H3",
+      "success": true,
+      "phone": "1154715171",
+      "country": "Egypt"
+    },
+    {
+      "ts": "2026-03-10T08:01:25.950579",
+      "userId": 1790070248,
+      "username": "UQ_QV",
+      "firstName": "\u3164\u3164\u3164\u3164\u3164\u3164\u3164\u3164\u3164\u3164\u3164\u3164\u3164\u3164",
+      "query": "VQ_QU",
+      "success": true,
+      "phone": "1093231407",
+      "country": "Egypt"
+    },
+    {
+      "ts": "2026-03-10T08:02:35.710104",
+      "userId": 1790070248,
+      "username": "UQ_QV",
+      "firstName": "\u3164\u3164\u3164\u3164\u3164\u3164\u3164\u3164\u3164\u3164\u3164\u3164\u3164\u3164",
+      "query": "Hamza_magdy7",
+      "success": true,
+      "phone": "1025816573",
+      "country": "Egypt"
+    },
+    {
+      "ts": "2026-03-10T11:46:49.333805",
+      "userId": 1214815977,
+      "username": "Johaaaannnnn",
+      "firstName": "\uaab6\u0362\u026a\u0365\u1d1b\u036ds\u1de4 \u0362\u1d0d\u036b\u1d07\u0364\u1843\u20ddI\u026a\u01eb\u20d6\u0299\u1d00\u029f\u20e1\u0714",
+      "query": "johannnnnnnnnnnnnnnn07",
+      "success": true,
+      "phone": "7034893736",
+      "country": "India"
+    },
+    {
+      "ts": "2026-03-10T11:47:21.126120",
+      "userId": 1214815977,
+      "username": "Johaaaannnnn",
+      "firstName": "\uaab6\u0362\u026a\u0365\u1d1b\u036ds\u1de4 \u0362\u1d0d\u036b\u1d07\u0364\u1843\u20ddI\u026a\u01eb\u20d6\u0299\u1d00\u029f\u20e1\u0714",
+      "query": "Rozziiiiiiii",
+      "success": true,
+      "phone": "8921026651",
+      "country": "India"
+    },
+    {
+      "ts": "2026-03-10T11:51:01.899632",
+      "userId": 1214815977,
+      "username": "Johaaaannnnn",
+      "firstName": "\uaab6\u0362\u026a\u0365\u1d1b\u036ds\u1de4 \u0362\u1d0d\u036b\u1d07\u0364\u1843\u20ddI\u026a\u01eb\u20d6\u0299\u1d00\u029f\u20e1\u0714",
+      "query": "Anushxdx",
+      "success": true,
+      "phone": "8878886638",
+      "country": "India"
+    },
+    {
+      "ts": "2026-03-10T12:00:48.724012",
+      "userId": 1214815977,
+      "username": "Johaaaannnnn",
+      "firstName": "\uaab6\u0362\u026a\u0365\u1d1b\u036ds\u1de4 \u0362\u1d0d\u036b\u1d07\u0364\u1843\u20ddI\u026a\u01eb\u20d6\u0299\u1d00\u029f\u20e1\u0714",
+      "query": "dheva_nadha",
+      "success": true,
+      "phone": "9946301326",
+      "country": "India"
+    },
+    {
+      "ts": "2026-03-10T12:03:29.975238",
+      "userId": 1214815977,
+      "username": "Johaaaannnnn",
+      "firstName": "\uaab6\u0362\u026a\u0365\u1d1b\u036ds\u1de4 \u0362\u1d0d\u036b\u1d07\u0364\u1843\u20ddI\u026a\u01eb\u20d6\u0299\u1d00\u029f\u20e1\u0714",
+      "query": "heyyouokey",
+      "success": true,
+      "phone": "9072400805",
+      "country": "India"
+    },
+    {
+      "ts": "2026-03-10T12:06:02.312273",
+      "userId": 1214815977,
+      "username": "Johaaaannnnn",
+      "firstName": "\uaab6\u0362\u026a\u0365\u1d1b\u036ds\u1de4 \u0362\u1d0d\u036b\u1d07\u0364\u1843\u20ddI\u026a\u01eb\u20d6\u0299\u1d00\u029f\u20e1\u0714",
+      "query": "shahshad_bot",
+      "success": true,
+      "phone": "7356778757",
+      "country": "India"
+    },
+    {
+      "ts": "2026-03-10T12:11:27.840041",
+      "userId": 1214815977,
+      "username": "Johaaaannnnn",
+      "firstName": "\uaab6\u0362\u026a\u0365\u1d1b\u036ds\u1de4 \u0362\u1d0d\u036b\u1d07\u0364\u1843\u20ddI\u026a\u01eb\u20d6\u0299\u1d00\u029f\u20e1\u0714",
+      "query": "Fiiyyyaaa",
+      "success": false,
+      "phone": null,
+      "country": null
+    },
+    {
+      "ts": "2026-03-10T12:14:00.467242",
+      "userId": 1214815977,
+      "username": "Johaaaannnnn",
+      "firstName": "\uaab6\u0362\u026a\u0365\u1d1b\u036ds\u1de4 \u0362\u1d0d\u036b\u1d07\u0364\u1843\u20ddI\u026a\u01eb\u20d6\u0299\u1d00\u029f\u20e1\u0714",
+      "query": "ONLINeARUSHl",
+      "success": true,
+      "phone": "9027912235",
+      "country": "India"
+    },
+    {
+      "ts": "2026-03-10T12:23:48.013694",
+      "userId": 1214815977,
+      "username": "Johaaaannnnn",
+      "firstName": "\uaab6\u0362\u026a\u0365\u1d1b\u036ds\u1de4 \u0362\u1d0d\u036b\u1d07\u0364\u1843\u20ddI\u026a\u01eb\u20d6\u0299\u1d00\u029f\u20e1\u0714",
+      "query": "8703643072",
+      "success": false,
+      "phone": null,
+      "country": null
+    },
+    {
+      "ts": "2026-03-10T12:25:15.943999",
+      "userId": 1214815977,
+      "username": "Johaaaannnnn",
+      "firstName": "\uaab6\u0362\u026a\u0365\u1d1b\u036ds\u1de4 \u0362\u1d0d\u036b\u1d07\u0364\u1843\u20ddI\u026a\u01eb\u20d6\u0299\u1d00\u029f\u20e1\u0714",
+      "query": "5684638981",
+      "success": true,
+      "phone": "8590793589",
+      "country": "India"
+    },
+    {
+      "ts": "2026-03-10T12:27:06.174127",
+      "userId": 1214815977,
+      "username": "Johaaaannnnn",
+      "firstName": "\uaab6\u0362\u026a\u0365\u1d1b\u036ds\u1de4 \u0362\u1d0d\u036b\u1d07\u0364\u1843\u20ddI\u026a\u01eb\u20d6\u0299\u1d00\u029f\u20e1\u0714",
+      "query": "8703643072",
+      "success": false,
+      "phone": null,
+      "country": null
+    },
+    {
+      "ts": "2026-03-10T12:45:03.676390",
+      "userId": 1635646211,
+      "username": "bullxgod",
+      "firstName": "Joe",
+      "query": "HarelPol",
+      "success": false,
+      "phone": "",
+      "country": ""
+    },
+    {
+      "ts": "2026-03-10T13:25:27.728275",
+      "userId": 961369378,
+      "username": "drazeforce",
+      "firstName": "4nsil\ud83d\udc19\u21b2",
+      "query": "LORDHEMANT9090",
+      "success": false,
+      "phone": "",
+      "country": ""
+    },
+    {
+      "ts": "2026-03-10T13:26:18.078052",
+      "userId": 1214815977,
+      "username": "Johaaaannnnn",
+      "firstName": "\uaab6\u0362\u026a\u0365\u1d1b\u036ds\u1de4 \u0362\u1d0d\u036b\u1d07\u0364\u1843\u20ddI\u026a\u01eb\u20d6\u0299\u1d00\u029f\u20e1\u0714",
+      "query": "Joh4n404",
+      "success": true,
+      "phone": "7034893736",
+      "country": "India"
+    },
+    {
+      "ts": "2026-03-10T13:26:31.413406",
+      "userId": 961369378,
+      "username": "drazeforce",
+      "firstName": "4nsil\ud83d\udc19\u21b2",
+      "query": "Drazeforce",
+      "success": true,
+      "phone": "8075046930",
+      "country": "India"
+    },
+    {
+      "ts": "2026-03-10T13:40:18.222814",
+      "userId": 961369378,
+      "username": "drazeforce",
+      "firstName": "4nsil\ud83d\udc19\u21b2",
+      "query": "Joh4n404",
+      "success": true,
+      "phone": "7034893736",
+      "country": "India"
+    },
+    {
+      "ts": "2026-03-10T13:55:43.513610",
+      "userId": 961369378,
+      "username": "drazeforce",
+      "firstName": "4nsil\ud83d\udc19\u21b2",
+      "query": "Joh4n404",
+      "success": true,
+      "phone": "7034893736",
+      "country": "India"
+    },
+    {
+      "ts": "2026-03-10T13:57:55.591410",
+      "userId": 961369378,
+      "username": "drazeforce",
+      "firstName": "4nsil\ud83d\udc19\u21b2",
+      "query": "Drazeforce",
+      "success": true,
+      "phone": "8075046930",
+      "country": "India"
+    },
+    {
+      "ts": "2026-03-10T14:03:00.266978",
+      "userId": 5927721540,
+      "username": "Joh4n404",
+      "firstName": "\u2665\ufe0f",
+      "query": "Rozziiiiiiii",
+      "success": true,
+      "phone": "8921026651",
+      "country": "India"
+    }
+  ],
+  "adminSessions": [
+    {
+      "userId": 961369378,
+      "ts": "2026-03-10T02:12:44.926666"
+    },
+    {
+      "userId": 961369378,
+      "ts": "2026-03-10T02:49:50.933128"
+    }
+  ],
+  "maintenance": false
+}
