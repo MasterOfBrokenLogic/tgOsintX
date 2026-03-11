@@ -1,6 +1,6 @@
 import logging
 import asyncio
-import aiohttp #type: ignore
+import aiohttp # type: ignore
 import json
 import os
 import hashlib
@@ -9,19 +9,19 @@ import time
 import urllib.request
 from http.server import HTTPServer, BaseHTTPRequestHandler
 from datetime import datetime, date, timedelta
-from dotenv import load_dotenv #type: ignore
-from telegram import ( #type: ignore
+from dotenv import load_dotenv # type: ignore
+from telegram import ( # type: ignore
     Update,
     InlineKeyboardButton,
     InlineKeyboardMarkup,
     InlineQueryResultArticle,
     InputTextMessageContent,
     KeyboardButton,
-    KeyboardButtonRequestUser,
+    KeyboardButtonRequestUsers,
     ReplyKeyboardMarkup,
     ReplyKeyboardRemove,
 )
-from telegram.ext import ( #type: ignore
+from telegram.ext import ( # type: ignore
     Application,
     CommandHandler,
     CallbackQueryHandler,
@@ -31,7 +31,7 @@ from telegram.ext import ( #type: ignore
     ContextTypes,
     ConversationHandler,
 )
-from telegram.constants import ParseMode #type: ignore
+from telegram.constants import ParseMode # type: ignore
 
 load_dotenv()
 
@@ -1498,7 +1498,7 @@ async def cbUidOther(update: Update, ctx: ContextTypes.DEFAULT_TYPE):
     kb = ReplyKeyboardMarkup(
         [[KeyboardButton(
             "Select a contact",
-            request_user=KeyboardButtonRequestUser(request_id=1, user_is_bot=False)
+            request_users=KeyboardButtonRequestUsers(request_id=1, user_is_bot=False)
         )]],
         resize_keyboard=True,
         one_time_keyboard=True
@@ -1516,20 +1516,24 @@ async def receiveUserIdContact(update: Update, ctx: ContextTypes.DEFAULT_TYPE):
     if not ctx.user_data.get("awaitingUserIdContact"):
         return
     ctx.user_data["awaitingUserIdContact"] = False
-    msg = update.message
-    # user_shared is the correct attribute in PTB v21
-    shared = getattr(msg, "user_shared", None)
-    if not shared:
+    msg    = update.message
+    shared = getattr(msg, "users_shared", None)
+    if not shared or not shared.users:
         await msg.reply_text(
             "<b>No contact received.</b>  Try again.",
             parse_mode=ParseMode.HTML,
             reply_markup=ReplyKeyboardRemove()
         )
         return
+    person = shared.users[0]
+    name   = getattr(person, "first_name", None) or "null"
+    uname  = getattr(person, "username", None) or "null"
     await msg.reply_text(
         f"<b>USER ID</b>\n"
         f"<code>────────────────────────</code>\n"
-        f"<b>User ID</b>   <code>{shared.user_id}</code>\n"
+        f"<b>Name</b>      <code>{name}</code>\n"
+        f"<b>Username</b>  <code>@{uname}</code>\n"
+        f"<b>User ID</b>   <code>{person.user_id}</code>\n"
         f"<code>────────────────────────</code>",
         parse_mode=ParseMode.HTML,
         reply_markup=ReplyKeyboardRemove()
