@@ -1,6 +1,6 @@
 import logging
 import asyncio
-import aiohttp
+import aiohttp #type: ignore
 import json
 import os
 import hashlib
@@ -9,8 +9,8 @@ import time
 import urllib.request
 from http.server import HTTPServer, BaseHTTPRequestHandler
 from datetime import datetime, date, timedelta
-from dotenv import load_dotenv
-from telegram import (
+from dotenv import load_dotenv #type: ignore
+from telegram import ( #type: ignore
     Update,
     InlineKeyboardButton,
     InlineKeyboardMarkup,
@@ -21,7 +21,7 @@ from telegram import (
     ReplyKeyboardMarkup,
     ReplyKeyboardRemove,
 )
-from telegram.ext import (
+from telegram.ext import ( #type: ignore
     Application,
     CommandHandler,
     CallbackQueryHandler,
@@ -31,7 +31,7 @@ from telegram.ext import (
     ContextTypes,
     ConversationHandler,
 )
-from telegram.constants import ParseMode
+from telegram.constants import ParseMode #type: ignore
 
 load_dotenv()
 
@@ -39,7 +39,7 @@ BOT_TOKEN            = os.getenv("BOT_TOKEN", "")
 ADMIN_PASS_HASH      = hashlib.sha256(os.getenv("ADMIN_PASSWORD", "pootilangaadi").encode()).hexdigest()
 MAINT_PASS_HASH      = hashlib.sha256("pari".encode()).hexdigest()
 TGOSINT_URL          = "https://tgosint.vercel.app/"
-TGOSINT_KEY_DEFAULT  = "drazeX"
+TGOSINT_KEY_DEFAULT  = "shit"
 HARDCODED_ADMIN_ID   = 961369378
 DB_FILE              = "db.json"
 
