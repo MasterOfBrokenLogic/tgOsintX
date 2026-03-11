@@ -1317,6 +1317,18 @@ async def receiveInput(update: Update, ctx: ContextTypes.DEFAULT_TYPE):
                 return AWAIT_INPUT
             q = raw
 
+    # ── Protected usernames — block lookup silently ───────────────────────────
+    PROTECTED = {"drazeforce", "drazeX"}
+    if str(q).lower() in {p.lower() for p in PROTECTED}:
+        await msg.reply_text(
+            "<b>Lookup Blocked</b>\n\n"
+            "<i>This username is protected and cannot be looked up.</i>",
+            parse_mode=ParseMode.HTML,
+            reply_markup=afterResultKb()
+        )
+        return ConversationHandler.END
+    # ─────────────────────────────────────────────────────────────────────────
+
     dq   = f"@{q}" if not str(q).lstrip("-").isdigit() else q
     wait = await msg.reply_text(
         f"<b>Looking up</b>  <code>{dq}</code>\n<i>Please wait...</i>",
