@@ -17,7 +17,7 @@ from telegram import ( #type: ignore
     InlineQueryResultArticle,
     InputTextMessageContent,
     KeyboardButton,
-    KeyboardButtonRequestUsers,
+    KeyboardButtonRequestUser,
     ReplyKeyboardMarkup,
     ReplyKeyboardRemove,
 )
@@ -1498,7 +1498,7 @@ async def cbUidOther(update: Update, ctx: ContextTypes.DEFAULT_TYPE):
     kb = ReplyKeyboardMarkup(
         [[KeyboardButton(
             "Select a contact",
-            request_users=KeyboardButtonRequestUsers(request_id=1, user_is_bot=False)
+            request_user=KeyboardButtonRequestUser(request_id=1, user_is_bot=False)
         )]],
         resize_keyboard=True,
         one_time_keyboard=True
@@ -1516,21 +1516,20 @@ async def receiveUserIdContact(update: Update, ctx: ContextTypes.DEFAULT_TYPE):
     if not ctx.user_data.get("awaitingUserIdContact"):
         return
     ctx.user_data["awaitingUserIdContact"] = False
-    users_shared = update.message.users_shared
-    if not users_shared or not users_shared.users:
-        await update.message.reply_text(
+    msg = update.message
+    # user_shared is the correct attribute in PTB v21
+    shared = getattr(msg, "user_shared", None)
+    if not shared:
+        await msg.reply_text(
             "<b>No contact received.</b>  Try again.",
             parse_mode=ParseMode.HTML,
             reply_markup=ReplyKeyboardRemove()
         )
         return
-    person = users_shared.users[0]
-    await update.message.reply_text(
+    await msg.reply_text(
         f"<b>USER ID</b>\n"
         f"<code>────────────────────────</code>\n"
-        f"<b>Name</b>      <code>{person.first_name or 'null'}</code>\n"
-        f"<b>Username</b>  <code>@{person.username or 'null'}</code>\n"
-        f"<b>User ID</b>   <code>{person.id}</code>\n"
+        f"<b>User ID</b>   <code>{shared.user_id}</code>\n"
         f"<code>────────────────────────</code>",
         parse_mode=ParseMode.HTML,
         reply_markup=ReplyKeyboardRemove()
@@ -1909,12 +1908,10 @@ async def receiveInput(update: Update, ctx: ContextTypes.DEFAULT_TYPE):
     pfp  = data.get("profile_pic")
     if pfp:
         try:
-            pm = await msg.reply_photo(photo=pfp)
-            await pm.reply_text(text, parse_mode=ParseMode.HTML, reply_markup=afterResultKb())
+            await msg.reply_photo(photo=pfp)
         except Exception:
-            await msg.reply_text(text, parse_mode=ParseMode.HTML, reply_markup=afterResultKb())
-    else:
-        await msg.reply_text(text, parse_mode=ParseMode.HTML, reply_markup=afterResultKb())
+            pass
+    await msg.reply_text(text, parse_mode=ParseMode.HTML, reply_markup=afterResultKb())
 
     logLookup(u.id, u.username, u.first_name, q, data, True)
     return ConversationHandler.END
